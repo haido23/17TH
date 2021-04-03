@@ -18,6 +18,7 @@ if (isset($_POST['btn-sign-in'])) {
         ?>
             <script>
                 alert('Login succesful!!');
+                window.location.href = "Trang.php";
             </script>
         <?php
         } else {
@@ -32,7 +33,7 @@ if (isset($_POST['btn-sign-in'])) {
 
 ?>
 
-<form action="Trang.php" method="post">
+<form action="" method="post">
     <label>UserName</label> <input type="text" name="txtUsername" id="" placeholder="txtUsername"><br>
     <label>PassWord</label> <input type="password" name="txtPassword" id="" placeholder="txtPassword"><br>
 
