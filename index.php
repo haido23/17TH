@@ -6,7 +6,7 @@ require_once("../header.php");
     Tên: <input type="text" name="lblUsername" id="" placeholder="txtUsername"><br>
     Mật Khẩu: <input type="text" name="lblPassword" id="" placeholder="txtPassword"><br>
 
-    <input type="submit" value="Them">
+    <input type="submit" value="Login">
 </form>
 
 <?php
