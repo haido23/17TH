@@ -36,7 +36,11 @@ if (isset($_POST['btn-sign-in'])) {
 <form action="" method="post">
     <label>UserName</label> <input type="text" name="txtUsername" id="" placeholder="txtUsername"><br>
     <label>PassWord</label> <input type="password" name="txtPassword" id="" placeholder="txtPassword"><br>
+<<<<<<< HEAD
     sadkfiohsaiufvyhiudsahvijvgdiioio
+=======
+    <Chào moi người ahihihi>Vui ko ne</Chào moi người ahihihi>
+>>>>>>> 0e7b2d485df27db88f5c050afe7eedc3092b870e
     <input type="submit" name="btn-sign-in" value="Sign in">
 </form>
 
